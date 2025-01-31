@@ -9,10 +9,10 @@
 
 /* nav styles */
 main{
-    margin: 80px;
+    /* margin: 80px; */
 }
 body{
-    /* margin: 0 60px; */
+    margin: 0 60px;
 }
 nav{
     display: flex;
@@ -21,7 +21,7 @@ nav{
 }
 .nav-title{
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
 }
 nav ul li{
     list-style: none;
@@ -68,11 +68,19 @@ nav ul li{
     font-weight: bold;
 }
 /* The Vision of Future Styles */
+.vision-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    font-size: 16px;
+}
 main .technology{
     display: flex;
-    gap: 24px;
+    gap: 30px;
     justify-content: space-between;
-    width: 100%;
 }
 .technology-types-1{
     padding: 32px;
@@ -81,12 +89,30 @@ main .technology{
 }
 .technology-types-2{
     padding: 32px;
-    background-color:rgba(84, 144, 245, 0.2) ;
+    background-color:rgba(198, 228, 214, 1) ;
     border-radius: 14px;    
 }
 .technology-types-3{
     padding: 32px;
-    background-color:rgba(84, 144, 245, 0.2) ;
+    background-color:rgba(247, 235, 207, 1) ;
     border-radius: 14px;
+}
+.btn-primary-1{
+    background-color: rgba(84, 144, 245, 1);
+    border-radius: 6px;
+    padding: 10px 15px;
+    border: none;
+}
+.btn-primary-2{
+    background-color: rgba(9, 161, 92, 1);
+    border-radius: 6px;
+    padding: 10px 15px;
+    border: none;    
+}
+.btn-primary-3{
+    background-color: rgba(255, 194, 57, 1);
+    border-radius: 6px;
+    padding: 10px 15px;
+    border: none;    
 }
 
