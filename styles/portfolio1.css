@@ -9,7 +9,7 @@
 
 /* nav styles */
 body{
-    margin: 0 60px;
+    margin: 20px 60px;
 }
 nav{
     display: flex;
@@ -54,6 +54,13 @@ nav ul li{
     font-weight: 600;
     border: none;
     color: rgba(255, 255, 255, 1);
+    transition: ease .20s;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: red;
+    border: 2px solid rgb(0, 247, 255);
+    transform: scale(1.1);
 }
 .banner-title{
     color: rgba(14, 14, 14, 0.5);
@@ -102,19 +109,43 @@ main .technology{
     border-radius: 6px;
     padding: 10px 15px;
     border: none;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.btn-primary-1:hover{
+    background-color: red;
+    border: 2px solid rgb(0, 247, 255);
+    transform: scale(1.1);
+    
 }
 .btn-primary-2{
     background-color: rgba(9, 161, 92, 1);
     border-radius: 6px;
     padding: 10px 15px;
-    border: none;    
+    border: none;
+    transition: ease .20s;
+    cursor: pointer;
+
+}
+.btn-primary-2:hover{
+    background-color: red;
+    border: 2px solid rgb(0, 247, 255);
+    transform: scale(1.1);
 }
 .btn-primary-3{
     background-color: rgba(255, 194, 57, 1);
     border-radius: 6px;
     padding: 10px 15px;
-    border: none;    
+    border: none; 
+    transition: ease .20s;
+    cursor: pointer;   
 }
+.btn-primary-3:hover{
+    background-color: red;
+    border: 2px solid rgb(0, 247, 255);
+    transform: scale(1.1);
+}
+
 /* Recent News styles */
 .satelite-1{
     width: 400px;
@@ -153,6 +184,13 @@ main .Recent-news{
     font-weight: 600;
     padding: 10px 20px;
     border: none;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.common-btn:hover{
+    border: 2px solid rgb(0, 247, 255);
+    background-color: red;
+    transform: scale(1.1);
 }
 main .satelite{
     display: flex;
@@ -193,7 +231,7 @@ main .satelite{
     color: rgba(14, 14, 14, 0.8);
 }
 .no-1,.no-3,.no-4{
-    background-color: bisque;
+    background: none;
     padding: 40px 40px;
     border-radius: 13px;
     color: rgba(14, 14, 14, 0.8);
@@ -224,5 +262,23 @@ main .satelite{
     padding: 10px 30px;
     width: 500px;
     border: none;  
+}
+.Dr-Muhammad-Yunus{
+   
+    /* background-color: aqua; */
+    border-radius: 14px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 40px 24px;
+}
+/* Dr-Muhammad-Yunus */
+.description,.signature{
+    color: rgba(14, 14, 14, 0.8);
+}
+.title {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
 }
 
