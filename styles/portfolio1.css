@@ -206,4 +206,23 @@ main .satelite{
     padding: 13px;
 }
 /* Subscribe Newsletter */
+.Subscribe-Newsletter{
+    text-align: center;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 60px 100px;
+    border-radius: 16px;
+}
+.subscribe-title{
+    font-size: 32px;
+    font-weight: bold;    
+}
+.subscribe-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px; 
+}
+.enter-email{
+    padding: 10px 30px;
+    width: 500px;
+    border: none;  
+}
 
